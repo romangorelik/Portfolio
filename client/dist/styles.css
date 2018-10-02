@@ -1,0 +1,163 @@
+html {
+  background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed86b965826826e3dd08bb3b33726543&auto=format&fit=crop&w=1907&q=80'); 
+}
+
+.headerTags1 {
+  font-size: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  top: 12%;
+  left: 30%
+}
+
+.headerTags2 {
+  font-size: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  top: 12%;
+  left: 46%
+}
+
+.headerTags3 {
+  font-size: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  top: 12%;
+  left: 63%
+}
+
+.demo6 {
+  background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed86b965826826e3dd08bb3b33726543&auto=format&fit=crop&w=1907&q=80');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.demo7 {
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 130%;
+}
+
+.demo7-ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 99px;
+  position: absolute;
+  border: 1px solid lightblue;
+}
+
+.nameAboutMe {
+  color: #FFFFDB;
+  font-size: 60px;
+  position: absolute;
+  z-index: 1000;
+  top: -6%;
+  left: 41.8%
+}
+
+.bio {
+  position: absolute;
+  z-index: 100;
+  top: 17%;
+  width: 37%;
+  margin-left: 51%;
+  text-align: center;
+}
+
+.skills {
+  position: absolute;
+  z-index: 100;
+  top: 19.5%;
+  width: 37%;
+  margin-left: 7%;
+  text-align: center;
+  line-height: 100%;
+}
+
+.contact {
+  position: absolute;
+  z-index: 100;
+  top: 72%;
+  width: 37%;
+  margin-left: 7%;
+  text-align: center;
+}
+
+.infoHeader {
+  color: #FFFFDB;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  z-index: 100;
+  letter-spacing: 3px;
+  font-size: 36px;
+}
+
+.infoText {
+  font-family: 'Cardo', sans-serif;
+  text-transform: uppercase;
+  z-index: 100;
+}
+
+#skillsType {
+  font-size: 24px;
+  color: #cbe1a1
+}
+
+#skillsText {
+  color: gold
+}
+
+#bioText {
+  color: gold;
+  text-transform: uppercase;
+  line-height: 130%;
+}
+
+#contactText {
+  color: #cbe1a1;
+  text-transform: uppercase;
+}
+
+
+a:link {
+  color: gold;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: gold;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #cbe1a1;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #cbe1a1;
+  text-decoration: none;
+}
+
+.resume {
+  position: absolute;
+  z-index: 1000;
+}
+
+.resumeBox {
+  position: absolute;
+  z-index: 1000;
+  top: 20%;
+  left: 27%;
+}
