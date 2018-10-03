@@ -43,21 +43,28 @@ class Applications extends React.Component {
     return (
       <TransitionMotion willLeave={this.willLeave} styles={styles}>
         {circles =>
-          <div
-            onMouseMove={this.handleMouseMove}
-            onTouchMove={this.handleTouchMove}
-            className="demo7">
-            {circles.map(({key, style: {opacity, scale, x, y}}) =>
-              <div
-                key={key}
-                className="demo7-ball"
-                style={{
-                  opacity: opacity,
-                  scale: scale,
-                  transform: `translate3d(${x}px, ${y}px, 0) scale(${scale})`,
-                  WebkitTransform: `translate3d(${x}px, ${y}px, 0) scale(${scale})`,
-                }} />
-            )}
+          <div>
+            <div
+              onMouseMove={this.handleMouseMove}
+              onTouchMove={this.handleTouchMove}
+              className="demo7">
+              {circles.map(({key, style: {opacity, scale, x, y}}) =>
+                <div
+                  key={key}
+                  className="demo7-ball"
+                  style={{
+                    opacity: opacity,
+                    scale: scale,
+                    transform: `translate3d(${x}px, ${y}px, 0) scale(${scale})`,
+                    WebkitTransform: `translate3d(${x}px, ${y}px, 0) scale(${scale})`,
+                  }} />
+              )}
+            </div>
+            <div className='applicationBoxes'>
+              <div className='Meili'>Hello</div>
+              <div className='Moodvies'>There</div>
+              <div className='WhereYouAt'>Where</div>
+            </div>
           </div>
         }
       </TransitionMotion>
@@ -65,4 +72,5 @@ class Applications extends React.Component {
   }
 }
 
-export default Applications
+
+export default Applications;

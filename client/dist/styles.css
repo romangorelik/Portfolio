@@ -1,5 +1,5 @@
 html {
-  background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed86b965826826e3dd08bb3b33726543&auto=format&fit=crop&w=1907&q=80'); 
+  background-color: #1B1B1B;
 }
 
 .headerTags1 {
@@ -8,7 +8,7 @@ html {
   z-index: 1000;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  top: 12%;
+  top: 14%;
   left: 30%
 }
 
@@ -18,7 +18,7 @@ html {
   z-index: 1000;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  top: 12%;
+  top: 14%;
   left: 46%
 }
 
@@ -28,7 +28,7 @@ html {
   z-index: 1000;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  top: 12%;
+  top: 14%;
   left: 63%
 }
 
@@ -40,10 +40,10 @@ html {
 }
 
 .demo7 {
-  background-color: black;
+  background-color: #1B1B1B;
   position: absolute;
   width: 100%;
-  height: 130%;
+  height: 150%;
 }
 
 .demo7-ball {
@@ -59,14 +59,14 @@ html {
   font-size: 60px;
   position: absolute;
   z-index: 1000;
-  top: -6%;
-  left: 41.8%
+  top: -2%;
+  left: 40.5%
 }
 
 .bio {
   position: absolute;
   z-index: 100;
-  top: 17%;
+  top: 19%;
   width: 37%;
   margin-left: 51%;
   text-align: center;
@@ -75,7 +75,7 @@ html {
 .skills {
   position: absolute;
   z-index: 100;
-  top: 19.5%;
+  top: 21.5%;
   width: 37%;
   margin-left: 7%;
   text-align: center;
@@ -85,7 +85,7 @@ html {
 .contact {
   position: absolute;
   z-index: 100;
-  top: 72%;
+  top: 74%;
   width: 37%;
   margin-left: 7%;
   text-align: center;
@@ -161,3 +161,43 @@ a:active {
   top: 20%;
   left: 27%;
 }
+
+.applicationBoxes {
+  position: absolute;
+  z-index: 1000;
+  top: 20%;
+  left: 13%;
+  width: 74%;
+  text-align: center;
+}
+
+.Meili {
+  height: 250px;
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 25px;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 8%;
+}
+
+.Moodvies {
+  height: 250px;
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 25px;
+  color: white;
+  margin-bottom: 8%;
+}
+
+.WhereYouAt {
+  height: 250px;
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 25px;
+  color: white;
+}
+

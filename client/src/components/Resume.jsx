@@ -74,7 +74,7 @@ class Resume extends React.Component {
                   file={RomanResume}
                   
                 >
-                <Page enderAnnotations={false} pageNumber={pageNumber} />
+                <Page renderAnnotations={false} pageNumber={pageNumber} />
                 </Document>
               </div>
             </div>
