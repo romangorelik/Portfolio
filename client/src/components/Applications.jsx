@@ -61,9 +61,15 @@ class Applications extends React.Component {
               )}
             </div>
             <div className='applicationBoxes'>
-              <div className='Meili'>Hello</div>
-              <div className='Moodvies'>There</div>
-              <div className='WhereYouAt'>Where</div>
+              <div className='Meili'>
+                  <div className='appTitle'>Meili</div>
+              </div>
+              <div className='Moodvies'>
+                <div className='appTitle'>Moodvies</div>
+              </div>
+              <div className='WhereYouAt'>
+                <div className='appTitle'>Where You At</div>
+              </div>
             </div>
           </div>
         }

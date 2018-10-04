@@ -59,8 +59,11 @@ html {
   font-size: 60px;
   position: absolute;
   z-index: 1000;
-  top: -2%;
-  left: 40.5%
+  top: 2%;
+  left: 30.5%;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
 
 .bio {
@@ -180,6 +183,7 @@ a:active {
   color: white;
   margin-top: 1%;
   margin-bottom: 8%;
+  box-shadow: 0 0 15px 10px #141414
 }
 
 .Moodvies {
@@ -190,6 +194,7 @@ a:active {
   border-radius: 25px;
   color: white;
   margin-bottom: 8%;
+  box-shadow: 0 0 15px 10px #141414
 }
 
 .WhereYouAt {
@@ -199,5 +204,10 @@ a:active {
   background: linear-gradient(to bottom, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 25px;
   color: white;
+  box-shadow: 0 0 15px 10px #141414
+}
+
+.appTitle {
+
 }
 
