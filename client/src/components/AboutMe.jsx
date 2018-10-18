@@ -83,7 +83,7 @@ class AboutMe extends React.Component {
           <div className='contact'>
               <div className='infoHeader'>• • • ← contact → • • •</div>
               <br/>
-              <div id='contactText'><a href='https://github.com/romangorelik' target='_blank'>github</a> ■ <a href='https://www.linkedin.com/in/roman-gorelik-4731b0155/' target='_blank'>linkedin</a> ■ <a href="mailto:romang31@gmail.com">romang31@gmail.com</a> ■ <a href='https://www.instagram.com/roman.gorelik/' target='_blank'>instagram</a></div>
+              <div id='contactText'><a href='https://github.com/romangorelik' target='_blank'>github</a> ■ <a href='https://www.linkedin.com/in/roman-gorelik-4731b0155/' target='_blank'>linkedin</a> ■ <a href="mailto:romang31@gmail.com">romang31@gmail.com</a></div>
           </div>
         </div>
         }

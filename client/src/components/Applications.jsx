@@ -62,13 +62,19 @@ class Applications extends React.Component {
             </div>
             <div className='applicationBoxes'>
               <div className='Meili'>
-                  <div className='appTitle'>Meili</div>
+                  <div className='appTitle'>meili</div>
+                  <div className='appDesc'>Travel suite for customers that travel to New York and have their trip planned out for them. Sign up using our onboarding process to customize recommendations based on budget, trips dates, weather, and other travel preferences. Seamlessly move around either the days or the activities, or look for others that full within your specifications.</div>
+                  <div className='github'><a href='https://github.com/team-marquez/thesis' target='_blank'>GITHUB</a></div>
               </div>
               <div className='Moodvies'>
-                <div className='appTitle'>Moodvies</div>
+                <div className='appTitle'>moodvies</div>
+                <div className='appDesc'>Serving you movies based on your mood. Enjoy our geolocation services to show you the nearest theaters, and which movies are being played. Then enter our search system to find movies to enjoy at your own will based on moods. With a click, bring up a modal which displays user ratings, the trailer, and a description. Using Stripe, you can buy a copy of the movie if it is available.</div>
+                <div className='github'><a href='https://github.com/chewbecca-deathstar/KingdomOfRohan' target='_blank'>GITHUB</a></div>
               </div>
               <div className='WhereYouAt'>
-                <div className='appTitle'>Where You At</div>
+                <div className='appTitle'>where you at</div>
+                <div className='appDesc'>Chat application which will connect users from all around the world and display the central location of those users. Easily add friends and your favorite messages with a simple click. Supports up to 250,000 concurrent users with the use of Node.JS and Socket.io real time broadcasting.</div>
+                <div className='github'><a href='https://github.com/GreenfieldMasterpiece/WhereYouAt' target='_blank'>GITHUB</a></div>
               </div>
             </div>
           </div>

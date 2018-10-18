@@ -223,6 +223,25 @@ a:active {
 }
 
 .appTitle {
-
+  margin-top: 7px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
 }
 
+.appDesc {
+  margin-top: 15px;
+  text-transform: uppercase;
+  width: 90%;
+  margin-left: 5%;
+  line-height: 1.4;
+  font-weight: bold;
+  font-family: 'Cardo', sans-serif;
+}
+
+.github {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  color: gold;
+}
